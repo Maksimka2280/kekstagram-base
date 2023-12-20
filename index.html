@@ -7,6 +7,7 @@
   <link rel="stylesheet" href="css/normalize.css">
   <link rel="stylesheet" href="css/style.css">
   <link rel="shortcut icon" href="favicon.ico" type="image/x-icon">
+
   <title>Кекстаграм</title>
 </head>
 
@@ -197,12 +198,17 @@
   </main>
 
   <!-- Шаблон изображения случайного пользователя -->
-  <template id="picture">
-    <a href="#" class="picture">
+  <template id="picture" >
+    <a href="#" class="picture" data-publication-id="">
       <img class="picture__img" src="" width="182" height="182" alt="Случайная фотография">
       <p class="picture__info">
-        <span class="picture__comments"></span>
-        <span class="picture__likes"></span>
+
+        <span class="picture__comments">
+
+        </span>
+        <span class="picture__likes">
+
+        </span>
       </p>
     </a>
   </template>
@@ -231,7 +237,8 @@
   <template id="messages">
     <div class="img-upload__message  img-upload__message--loading">Загружаем...</div>
   </template>
-
+<script type="module" src="js/main.js"></script>
 </body>
+
 
 </html>
