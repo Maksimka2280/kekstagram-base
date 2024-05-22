@@ -391,6 +391,7 @@ main {
 .img-upload__preview-container {
   position: relative;
   margin-bottom: 30px;
+  overflow: hidden;
 }
 
 
